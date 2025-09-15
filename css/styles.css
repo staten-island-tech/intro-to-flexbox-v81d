@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(239, 239, 239, 1);
+}
+
+.main__header {
+  font-family: Hind;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(192, 192, 192, 1);
+  border-radius: 12px;
+}
