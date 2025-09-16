@@ -7,25 +7,35 @@ body {
   background-color: rgba(239, 239, 239, 1);
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(215, 215, 215, 1);
+  padding: 50px;
+}
+
 .main__header {
-  font-family: Hind;
+  font-family: "Hind", sans-serif;
   font-weight: 700;
+  margin-bottom: 10px;
+  color: rgba(48, 48, 48, 1);
+}
+
+.main__subheader {
+  font-family: "IM Fell Great Primer", serif;
+  font-weight: 400;
+  color: rgba(48, 48, 48, 1);
 }
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  height: 100vh;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+  padding: 50px;
 }
 
 .card {
@@ -33,4 +43,39 @@ body {
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(192, 192, 192, 1);
   border-radius: 12px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.card__image {
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-family: "Maitree", serif;
+  margin-bottom: 10px;
+}
+
+.card__description {
+  font-family: "Maitree", serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card__button {
+  cursor: pointer;
+  font-family: "Maitree", serif;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  transition: background-color 0.25s ease;
+}
+
+.card__button:hover {
+  background-color: rgba(64, 64, 64, 1);
 }
