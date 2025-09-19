@@ -11,12 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  gap: 10px;
+  padding: 50px 0 25px 0;
 }
 
 .main__header {
   font-family: "Hind", sans-serif;
   font-weight: 700;
+  font-size: 3rem;
   margin-bottom: 10px;
   color: rgb(48, 48, 48);
 }
@@ -24,6 +26,7 @@ body {
 .main__subheader {
   font-family: "IM Fell Great Primer", serif;
   font-weight: 400;
+  font-size: 1.75rem;
   color: rgb(48, 48, 48);
 }
 
@@ -39,16 +42,18 @@ body {
 
 .card {
   padding: 20px;
+  width: 400px;
   background-color: rgb(255, 255, 255);
   outline: 0 solid rgb(48, 48, 48);
   border: 1px solid rgb(192, 192, 192);
   border-radius: 12px;
-  width: 400px;
-  transition: outline 0.1s ease;
+  transition: outline 0.25s, transform 0.25s ease, box-shadow 0.5s ease;
 }
 
 .card:hover {
-  outline-width: 4px;
+  transform: perspective(1250px) rotateX(10deg) rotateY(-10deg) scale(1.05);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  outline-width: 5px;
 }
 
 .card__image {
@@ -85,6 +90,7 @@ body {
   border-radius: 12px;
   outline: none;
   min-width: 120px;
+  transition: transform 0.1s ease;
 }
 
 .card__button::after {
@@ -97,17 +103,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(64, 64, 64);
+  background-color: rgb(96, 96, 97);
   border-radius: 12px;
   color: rgb(255, 255, 255);
   opacity: 0;
-  transition: opacity 0.25s ease;
-}
-
-.card .card__button:hover {
-  box-shadow: 0 0 5px 5px red;
+  transition: opacity 0.5s ease;
 }
 
 .card__button:hover::after {
   opacity: 1;
+}
+
+.card__button:active {
+  transform: scale(0.9);
 }
