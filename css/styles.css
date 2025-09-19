@@ -10,24 +10,28 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 10px;
-  padding: 50px 0 25px 0;
+  margin: 0 auto;
+  padding: 50px 10px 25px 10px;
+}
+
+.main__header,
+.main__subheader {
+  width: 100%;
+  text-align: center;
+  color: rgb(48, 48, 48);
 }
 
 .main__header {
   font-family: "Hind", sans-serif;
   font-weight: 700;
   font-size: 3rem;
-  margin-bottom: 10px;
-  color: rgb(48, 48, 48);
 }
 
 .main__subheader {
   font-family: "IM Fell Great Primer", serif;
   font-weight: 400;
   font-size: 1.75rem;
-  color: rgb(48, 48, 48);
 }
 
 .container {
@@ -53,7 +57,7 @@ body {
 .card:hover {
   transform: perspective(1250px) rotateX(10deg) rotateY(-10deg) scale(1.05);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-  outline-width: 5px;
+  outline-width: 8px;
 }
 
 .card__image {
