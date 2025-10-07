@@ -1,0 +1,74 @@
+[
+  {
+    "image": "img/harverd_degree.jpg",
+    "title": "Harverd Degree",
+    "description": "Not Harvard. HarvErd.",
+    "price": "$54,999"
+  },
+  {
+    "image": "img/dale_degree.png",
+    "title": "Dale Degree",
+    "description": "Dale is not Yale.",
+    "price": "$49,799"
+  },
+  {
+    "image": "img/mid_degree.png",
+    "title": "MID Degree",
+    "description": "Massachusetts Institute of Dorknology.",
+    "price": "$74,499"
+  },
+  {
+    "image": "img/sitc_degree.png",
+    "title": "SITC Degree",
+    "description": "Staten Island Technical College? What is that?",
+    "price": "$101,399"
+  },
+  {
+    "image": "img/university_of_67_degree.png",
+    "title": "UO67 Degree",
+    "description": "University of 67, a very real university. All the crazy people          graduate from here!",
+    "price": "$67,410"
+  },
+  {
+    "image": "img/nothing_university_degree.png",
+    "title": "Nothing University Degree",
+    "description": "There's nothing to graduate from.",
+    "price": "$0.00"
+  },
+  {
+    "image": "img/brainrot_university_degree.png",
+    "title": "Brainrot University Degree",
+    "description": "Skibidi sigma brainrot university. 67. Ohio. What?",
+    "price": "$64,459"
+  },
+  {
+    "image": "img/whalen_university_degree.png",
+    "title": "Whalen University Degree",
+    "description": "Very good university for computer science. Taught by Professor Whalen.",
+    "price": "$999,999,999,999"
+  },
+  {
+    "image": "img/university_university_degree.png",
+    "title": "University University Degree",
+    "description": "A university for universities. Very universal!",
+    "price": "$88,889"
+  },
+  {
+    "image": "img/-----_degree.png",
+    "title": "%(#*& Degree",
+    "description": "What does it mean? How am I supposed to know?",
+    "price": "$216,479"
+  },
+  {
+    "image": "img/community_college_degree.png",
+    "title": "Community College Degree",
+    "description": "Just get a Harverd degree, man!",
+    "price": "$-194,999"
+  },
+  {
+    "image": "img/the_university_degree.png",
+    "title": "The University Degree",
+    "description": "THE University.",
+    "price": "$777,779"
+  }
+]
