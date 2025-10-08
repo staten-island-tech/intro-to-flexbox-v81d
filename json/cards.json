@@ -3,72 +3,84 @@
     "image": "img/harverd_degree.jpg",
     "title": "Harverd Degree",
     "description": "Not Harvard. HarvErd.",
-    "price": "$54,999"
+    "price": 54999,
+    "category": "Average"
   },
   {
     "image": "img/dale_degree.png",
     "title": "Dale Degree",
     "description": "Dale is not Yale.",
-    "price": "$49,799"
+    "price": 49799,
+    "category": "Average"
   },
   {
     "image": "img/mid_degree.png",
     "title": "MID Degree",
     "description": "Massachusetts Institute of Dorknology.",
-    "price": "$74,499"
+    "price": 74499,
+    "category": "Average"
   },
   {
     "image": "img/sitc_degree.png",
     "title": "SITC Degree",
     "description": "Staten Island Technical College? What is that?",
-    "price": "$101,399"
+    "price": 101399,
+    "category": "Prestigious"
   },
   {
     "image": "img/university_of_67_degree.png",
     "title": "UO67 Degree",
     "description": "University of 67, a very real university. All the crazy people          graduate from here!",
-    "price": "$67,410"
+    "price": 67410,
+    "category": "Bad"
   },
   {
     "image": "img/nothing_university_degree.png",
     "title": "Nothing University Degree",
     "description": "There's nothing to graduate from.",
-    "price": "$0.00"
+    "price": 0,
+    "category": "Prestigious"
   },
   {
     "image": "img/brainrot_university_degree.png",
     "title": "Brainrot University Degree",
     "description": "Skibidi sigma brainrot university. 67. Ohio. What?",
-    "price": "$64,459"
+    "price": 64459,
+    "category": "Average"
   },
   {
     "image": "img/whalen_university_degree.png",
     "title": "Whalen University Degree",
     "description": "Very good university for computer science. Taught by Professor Whalen.",
-    "price": "$999,999,999,999"
+    "price": 999999999999,
+    "category": "Prestigious"
   },
   {
     "image": "img/university_university_degree.png",
     "title": "University University Degree",
     "description": "A university for universities. Very universal!",
-    "price": "$88,889"
+    "price": 88889,
+    "category": "Average"
   },
   {
     "image": "img/-----_degree.png",
     "title": "%(#*& Degree",
     "description": "What does it mean? How am I supposed to know?",
-    "price": "$216,479"
+    "price": 216479,
+    "category": "Prestigious"
   },
   {
     "image": "img/community_college_degree.png",
     "title": "Community College Degree",
     "description": "Just get a Harverd degree, man!",
-    "price": "$-194,999"
+    "price": -194999,
+    "category": "Bad"
   },
   {
     "image": "img/the_university_degree.png",
     "title": "The University Degree",
     "description": "THE University.",
-    "price": "$777,779"
+    "price": 777779,
+    "category": "Prestigious"
   }
 ]
