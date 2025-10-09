@@ -4,83 +4,139 @@
     "title": "Harverd Degree",
     "description": "Not Harvard. HarvErd.",
     "price": 54999,
-    "category": "Average"
+    "category": "average"
   },
   {
     "image": "img/dale_degree.png",
     "title": "Dale Degree",
     "description": "Dale is not Yale.",
     "price": 49799,
-    "category": "Average"
+    "category": "average"
   },
   {
     "image": "img/mid_degree.png",
     "title": "MID Degree",
     "description": "Massachusetts Institute of Dorknology.",
     "price": 74499,
-    "category": "Average"
+    "category": "average"
   },
   {
     "image": "img/sitc_degree.png",
     "title": "SITC Degree",
     "description": "Staten Island Technical College? What is that?",
     "price": 101399,
-    "category": "Prestigious"
+    "category": "prestigious"
   },
   {
     "image": "img/university_of_67_degree.png",
     "title": "UO67 Degree",
     "description": "University of 67, a very real university. All the crazy people          graduate from here!",
     "price": 67410,
-    "category": "Bad"
+    "category": "bad"
   },
   {
     "image": "img/nothing_university_degree.png",
     "title": "Nothing University Degree",
     "description": "There's nothing to graduate from.",
     "price": 0,
-    "category": "Prestigious"
+    "category": "prestigious"
   },
   {
     "image": "img/brainrot_university_degree.png",
     "title": "Brainrot University Degree",
     "description": "Skibidi sigma brainrot university. 67. Ohio. What?",
     "price": 64459,
-    "category": "Average"
+    "category": "average"
   },
   {
     "image": "img/whalen_university_degree.png",
     "title": "Whalen University Degree",
     "description": "Very good university for computer science. Taught by Professor Whalen.",
     "price": 999999999999,
-    "category": "Prestigious"
+    "category": "prestigious"
   },
   {
     "image": "img/university_university_degree.png",
     "title": "University University Degree",
     "description": "A university for universities. Very universal!",
     "price": 88889,
-    "category": "Average"
+    "category": "average"
   },
   {
     "image": "img/-----_degree.png",
     "title": "%(#*& Degree",
     "description": "What does it mean? How am I supposed to know?",
     "price": 216479,
-    "category": "Prestigious"
+    "category": "prestigious"
   },
   {
     "image": "img/community_college_degree.png",
     "title": "Community College Degree",
     "description": "Just get a Harverd degree, man!",
     "price": -194999,
-    "category": "Bad"
+    "category": "bad"
   },
   {
     "image": "img/the_university_degree.png",
     "title": "The University Degree",
     "description": "THE University.",
     "price": 777779,
-    "category": "Prestigious"
+    "category": "prestigious"
+  },
+  {
+    "image": "img/ox_university_degree.png",
+    "title": "Ox University Degree",
+    "description": "Ox University is for oxen. Some oxen say we are better than Oxford.",
+    "price": 842499,
+    "category": "prestigious"
+  },
+  {
+    "image": "img/a_university_degree.png",
+    "title": "A University Degree",
+    "description": "It's a university. Which university? Just a university.",
+    "price": 59384,
+    "category": "average"
+  },
+  {
+    "image": "img/art_school_degree.png",
+    "title": "Art School Degree",
+    "description": "Please don't fail.",
+    "price": 12949,
+    "category": "bad"
+  },
+  {
+    "image": "img/new_dorp_university_degree.png",
+    "title": "New Dorp University Degree",
+    "description": "If you go to New Dorp High School, then this is for you.",
+    "price": 1,
+    "category": "bad"
+  },
+  {
+    "image": "img/fake_college_degree.png",
+    "title": "Fake College Degree",
+    "description": "They say they are fake, but they're actually real.",
+    "price": 58,
+    "category": "bad"
+  },
+  {
+    "image": "img/w_college_degree.png",
+    "title": "W College Degree",
+    "description": "The founder is Chaojie.",
+    "price": 4200000000000,
+    "category": "prestigious"
+  },
+  {
+    "image": "img/l_college_degree.png",
+    "title": "L College Degree",
+    "description": "The founder is NOT Chaojie.",
+    "price": -4200000000000,
+    "category": "bad"
+  },
+  {
+    "image": "img/degree_college_degree.png",
+    "title": "Degree College Degree",
+    "description": "I have no idea what this means. I think you get more college degrees for going here.",
+    "price": 235998345,
+    "category": "prestigious"
   }
 ]

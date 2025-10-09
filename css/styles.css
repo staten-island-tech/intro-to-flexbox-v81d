@@ -45,6 +45,7 @@ body {
 
 .filters__choice {
   cursor: pointer;
+  user-select: none;
   min-width: 125px;
   text-align: center;
   font-family: "IM Fell Great Primer", serif;
@@ -55,19 +56,23 @@ body {
   border-radius: 12px;
   color: rgb(64, 64, 64);
   padding: 15px;
-  transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.1s ease;
   display: inline-block;
-}
-
-.filters>input[type="radio"] {
-  display: none;
 }
 
 .filters__choice:hover {
   background-color: rgb(192, 192, 192);
 }
 
-.filters>input[type="radio"]:checked+.filters__choice {
+.filters__choice:active {
+  transform: scale(0.9);
+}
+
+.filters > input[type="radio"] {
+  display: none;
+}
+
+.filters > input[type="radio"]:checked + .filters__choice {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
@@ -131,12 +136,12 @@ body {
   border: none;
   border-radius: 12px;
   outline: none;
-  min-width: 120px;
+  min-width: 125px;
   transition: transform 0.1s ease;
 }
 
 .card__button::after {
-  content: "Purchase »";
+  content: "Add to Cart »";
   position: absolute;
   top: 0;
   left: 0;

@@ -4,53 +4,70 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>College Degree Store</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=IM+Fell+Great+Primer:ital@0;1&family=Maitree:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>College Degree Store</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=IM+Fell+Great+Primer:ital@0;1&family=Maitree:wght@200;300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-
-<body>
-  <!--[if lt IE 7]>
+  <body>
+    <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-  <section class="main">
-    <h1 class="main__header">College Diploma Store</h1>
-    <h3 class="main__subheader">
-      College diplomas from the top universities for very low prices! Well,
-      that depends on your definition of “low.”
-    </h3>
-  </section>
-  <section class="filters">
-    <input type="radio" name="category" value="All" id="filter-all" checked />
-    <label class="filters__choice" for="filter-all">All</label>
+    <section class="main">
+      <h1 class="main__header">College Diploma Store</h1>
+      <h3 class="main__subheader">
+        College diplomas from the top universities for very low prices! Well,
+        that depends on your definition of “low.”
+      </h3>
+    </section>
+    <section class="filters">
+      <input
+        type="radio"
+        name="category"
+        data-category="all"
+        id="filter-all"
+        checked
+      />
+      <label class="filters__choice" for="filter-all">All</label>
 
-    <input type="radio" name="category" value="Prestigious" id="filter-prestigious" />
-    <label class="filters__choice" for="filter-prestigious">Prestigious</label>
+      <input
+        type="radio"
+        name="category"
+        data-category="prestigious"
+        id="filter-prestigious"
+      />
+      <label class="filters__choice" for="filter-prestigious"
+        >Prestigious</label
+      >
 
-    <input type="radio" name="category" value="Average" id="filter-average" />
-    <label class="filters__choice" for="filter-average">Average</label>
+      <input
+        type="radio"
+        name="category"
+        data-category="average"
+        id="filter-average"
+      />
+      <label class="filters__choice" for="filter-average">Average</label>
 
-    <input type="radio" name="category" value="Bad" id="filter-bad" />
-    <label class="filters__choice" for="filter-bad">Bad</label>
-  </section>
-  <section class="container"></section>
+      <input type="radio" name="category" data-category="bad" id="filter-bad" />
+      <label class="filters__choice" for="filter-bad">Bad</label>
+    </section>
+    <section class="container"></section>
 
-  <!-- <script src="js/extractCards.js"></script> -->
-  <script src="js/script.js"></script>
-</body>
-
+    <!-- <script src="js/extractCards.js"></script> -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
