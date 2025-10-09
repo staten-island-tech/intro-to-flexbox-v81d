@@ -43,8 +43,10 @@ body {
   padding: 0 30px;
 }
 
-.filters__button {
+.filters__choice {
+  cursor: pointer;
   min-width: 125px;
+  text-align: center;
   font-family: "IM Fell Great Primer", serif;
   font-weight: 700;
   font-size: 1.25rem;
@@ -54,13 +56,18 @@ body {
   color: rgb(64, 64, 64);
   padding: 15px;
   transition: background-color 0.5s ease, color 0.5s ease;
+  display: inline-block;
 }
 
-.filters__button:not(.filters__button--selected):hover {
+.filters>input[type="radio"] {
+  display: none;
+}
+
+.filters__choice:hover {
   background-color: rgb(192, 192, 192);
 }
 
-.filters__button--selected {
+.filters>input[type="radio"]:checked+.filters__choice {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
