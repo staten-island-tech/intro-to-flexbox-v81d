@@ -7,6 +7,39 @@ body {
   background-color: rgb(239, 239, 239);
 }
 
+.overlay {
+  padding: 30px;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.overlay__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease,
+    transform 0.1s ease;
+}
+
+.overlay__button:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.overlay__button:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
 .main {
   display: flex;
   flex-direction: column;

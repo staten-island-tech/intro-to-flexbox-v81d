@@ -27,45 +27,57 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <section class="main">
-      <h1 class="main__header">College Diploma Store</h1>
-      <h3 class="main__subheader">
-        College diplomas from the top universities for very low prices! Well,
-        that depends on your definition of “low.”
-      </h3>
+    <section class="overlay">
+      <button class="overlay__button" title="View Cart">
+        <img src="img/cart.png" alt="Cart" />
+      </button>
     </section>
-    <section class="filters">
-      <input
-        type="radio"
-        name="category"
-        data-category="all"
-        id="filter-all"
-        checked
-      />
-      <label class="filters__choice" for="filter-all">All</label>
+    <div class="content">
+      <section class="main">
+        <h1 class="main__header">College Diploma Store</h1>
+        <h3 class="main__subheader">
+          College diplomas from the top universities for very low prices! Well,
+          that depends on your definition of “low.”
+        </h3>
+      </section>
+      <section class="filters">
+        <input
+          type="radio"
+          name="category"
+          data-category="all"
+          id="filter-all"
+          checked
+        />
+        <label class="filters__choice" for="filter-all">All</label>
 
-      <input
-        type="radio"
-        name="category"
-        data-category="prestigious"
-        id="filter-prestigious"
-      />
-      <label class="filters__choice" for="filter-prestigious"
-        >Prestigious</label
-      >
+        <input
+          type="radio"
+          name="category"
+          data-category="prestigious"
+          id="filter-prestigious"
+        />
+        <label class="filters__choice" for="filter-prestigious"
+          >Prestigious</label
+        >
 
-      <input
-        type="radio"
-        name="category"
-        data-category="average"
-        id="filter-average"
-      />
-      <label class="filters__choice" for="filter-average">Average</label>
+        <input
+          type="radio"
+          name="category"
+          data-category="average"
+          id="filter-average"
+        />
+        <label class="filters__choice" for="filter-average">Average</label>
 
-      <input type="radio" name="category" data-category="bad" id="filter-bad" />
-      <label class="filters__choice" for="filter-bad">Bad</label>
-    </section>
-    <section class="container"></section>
+        <input
+          type="radio"
+          name="category"
+          data-category="bad"
+          id="filter-bad"
+        />
+        <label class="filters__choice" for="filter-bad">Bad</label>
+      </section>
+      <section class="container"></section>
+    </div>
 
     <!-- <script src="js/extractCards.js"></script> -->
     <script src="js/script.js"></script>
