@@ -1,5 +1,3 @@
-document.addEventListener("mousedown", (e) => e.preventDefault());
-
 const cartButton = document.getElementById("cart-button");
 const cartShowButton = cartButton.querySelector("#cart-show-button");
 const cartCloseButton = cartButton.querySelector("#cart-close-button");
