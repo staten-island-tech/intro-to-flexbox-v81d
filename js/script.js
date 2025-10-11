@@ -1,3 +1,5 @@
+document.addEventListener("click", (e) => e.preventDefault());
+
 const cartButton = document.getElementById("cart-button");
 const cartShowButton = cartButton.querySelector("#cart-show-button");
 const cartCloseButton = cartButton.querySelector("#cart-close-button");
@@ -72,10 +74,12 @@ function loadCart() {
     totalPrice += card.price;
   }
 
-  cartItemsList.insertAdjacentHTML(
-    "beforeend",
-    fillCartItemTemplate("Total", totalPrice, true)
-  );
+  if (totalPrice != 0) {
+    cartItemsList.insertAdjacentHTML(
+      "beforeend",
+      fillCartItemTemplate("Total", totalPrice, true)
+    );
+  }
 }
 
 function addClickEvents(cards) {

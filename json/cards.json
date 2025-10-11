@@ -126,11 +126,11 @@
     "category": "prestigious"
   },
   {
-    "image": "img/media/l_college_degree.png",
-    "title": "L College Degree",
-    "description": "The founder is NOT Chaojie.",
-    "price": -4200000000000,
-    "category": "bad"
+    "image": "img/media/princesston_degree.png",
+    "title": "Princesston Degree",
+    "description": "Legends say it may rival Princeton.",
+    "price": 5839583988,
+    "category": "average"
   },
   {
     "image": "img/media/degree_college_degree.png",
