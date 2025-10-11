@@ -24,14 +24,21 @@ function fillCardTemplate(image, title, description, price, id) {
   `;
 }
 
-function fillCartItemTemplate(title, price) {
+function fillCartItemTemplate(title, price, strong) {
+  price = "$" + price.toLocaleString("en-US", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+
+  if (strong) {
+    title = `<strong>${title}</strong>`;
+    price = `<strong>${price}</strong>`;
+  }
+
   return `
   <tr>
     <td>${title}</td>
-    <td>$${price.toLocaleString("en-US", {
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
-  })}</td>
+    <td>${price}</td>
   </tr>
   `
 }
@@ -55,12 +62,20 @@ function loadCards(cards, filterCategory) {
 
 function loadCart() {
   cartItemsList.innerHTML = "";
+  totalPrice = 0;
+
   for (const card of cart) {
     cartItemsList.insertAdjacentHTML(
       "beforeend",
-      fillCartItemTemplate(card.title, card.price)
+      fillCartItemTemplate(card.title, card.price, false)
     );
+    totalPrice += card.price;
   }
+
+  cartItemsList.insertAdjacentHTML(
+    "beforeend",
+    fillCartItemTemplate("Total", totalPrice, true)
+  );
 }
 
 function addClickEvents(cards) {
