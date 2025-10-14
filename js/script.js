@@ -8,7 +8,7 @@ const filters = document.querySelector(".filters");
 const container = document.querySelector(".container");
 var selectedFilter = "all";
 var cartOpen = false;
-var cart = [];
+var cart = JSON.parse(localStorage.getItem("cdsCart")) || [];
 
 function fillCardTemplate(image, title, description, price, id) {
   return `
@@ -89,6 +89,7 @@ function addClickEvents(cards) {
     buyButton.addEventListener("click", (_) => {
       cart.push(cards[cardID]);
       buyButton.textContent = "Added to Cart!";
+      localStorage.setItem("cdsCart", JSON.stringify(cart));
       window.setTimeout(() => buyButton.textContent = price, 2000);
     });
   }
