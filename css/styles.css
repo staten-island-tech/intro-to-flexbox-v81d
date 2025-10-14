@@ -110,6 +110,7 @@ body {
 }
 
 .cart__button--remove {
+  cursor: pointer;
   width: 1.15rem;
   height: 1.15rem;
   margin-right: 8px;
